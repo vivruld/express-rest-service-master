@@ -1,0 +1,4 @@
+1st terminal: go to C:\Program Files\MongoDB\Server\3.0\bin 
+then mongod --dbpath C:\Users\voulgarakis\Desktop\express-rest-service-master\data
+2nd terminal: go to C:\Users\voulgarakis\Desktop\express-rest-service-master 
+then npm start
