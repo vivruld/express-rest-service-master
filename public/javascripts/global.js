@@ -190,13 +190,8 @@ function updateUser(event){
       data: updatedFields
     }).done(function( response ) {
 
-      // Check for a successful (blank) response
-      if (response.msg === '') {
-        togglePanels();
-      } else {
-        alert('Error: ' + response.msg);
-      }
-      // Update the table
+      togglePanels();
+
       populateTable();
     });
   }
